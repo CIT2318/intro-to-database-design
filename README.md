@@ -1,4 +1,4 @@
-#Intro to Database Design
+# Intro to Database Design
 
 1. Look at the following database tables. Identify the candidate key i.e. the minimal columns that can serve as a primary key.
 
