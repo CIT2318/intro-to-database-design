@@ -17,24 +17,39 @@
  | spades | King  | true   |
  | club   | 3     | true   |
 
+|first_name     |last_name      |date       |session   |attended|
+|--------------|----------------|-----------|----------|--------|
+|    Compton     |    Jane      |12/12/2019 |    5     |   Y     |
+|    Atherton    |    Ian       |13/12/2019 |    2     |    Y    |
+|    Hutton      |    Kate      |13/12/2019 |    3     |   N     |
+|    Miandad     |    Yousef    |12/12/2019 |    5     |   Y     |
+|    Atherton    |    Ian       |13/12/2019 |    3     |   Y     |
+|    Laxman      |    Sunil     |12/12/2019 |    3     |   N     |
+|    Crowe       |    Grace     |12/12/2019 |    3     |   Y     |
+
  | number_plate | make     | model    |
  |--------------|----------|----------|
- | v984 rh6     | BWM      | 3 series |
- | yy12 sdf     | VW       | Polo     |
- | mn09 geq     | Vauxhall | Corsa    |
- | st10 fkj     | VW       | Golf     |
+ | v984rh6     | BWM      | 3 series |
+ | yy12sdf     | VW       | Polo     |
+ | mn09geq     | Vauxhall | Corsa    |
+ | st10fkj     | VW       | Golf     |
 
- | home_team         | away_team         | date       | score |
- |-------------------|-------------------|------------|-------|
- | Huddersfield Town | Manchester City   | 02/02/2015 | 8-0   |
- | Liverpool         | Everton           | 23/11/2006 | 2-2   |
- | Chelsea           | Huddersfield Town | 10/09/2018 | 0-10  |
- | Newport County    | Manchester United | 12/12/2013 | 5-0   |
+ | home_team         | away_team         | date       | home_score |away_score|
+ |-------------------|-------------------|------------|-------|-------|
+ | Huddersfield Town | Manchester City   | 02/02/2015 | 8   |0   |
+ | Liverpool         | Everton           | 23/11/2006 | 2   |2   |
+ | Chelsea           | Huddersfield Town | 10/09/2018 | 0  |10  |
+ | Newport County    | Manchester United | 12/12/2013 | 5   |0   |
 
-2. Consider the following scenarios
+2. Based on the tables above what data type would you choose to store
+* make
+* away_score
+* value
+* student_id
+* number_plate
 
-* NASA have approached you to build a web application that will allow users to search for information about the history of space missions. You can see info about Space Missions here - http://www.bbc.co.uk/science/space/solarsystem/space_missions. How could you model the topic of space missions. Create a class diagram that identifies relevant classes and attributes. 
+3. Consider the following scenarios
 
-* You have been approached by a major supermarket to develop a website that features recipes by famous chefs using ingredients that can be bought at the supermarket. Create a class diagram that identifies relevant classes and attributes. 
+* NASA have approached you to build a web application that will allow users to search for information about the Apollo space missions. You can see info about the Missions here - https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo.html. How could you model this topic? Identify relevant entities and attributes. 
 
-
+* The Tolson Museum in Huddersfield would like to develop a web application where users can search and browse through their collection of historical objects. They have some basic information online at the moment - https://www.kirklees.gov.uk/beta/museums-galleries-history/tolson-gallery.aspx. Think about how you would design a database to store information about their collection. Identify suitable entities and attributes.
